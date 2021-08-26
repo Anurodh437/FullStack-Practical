@@ -6,41 +6,85 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Practical-6</title>
 
-
   <style>
     .main{
       width: 100%;
-      display: inline-flex;
+      display: flex;
     }
     .details{
+      text-align: center;
+      border-radius: 10px;
       background-color: white;
-      border: 1px solid white;
-      margin: 5px;
+      border: 1px solid greenyellow;
+      margin: 10px;
+      width: 410px;
+      height: 510px;
+    }
+    .photo{
+      width: 375px;
+      height: 250px;
+      padding: 15px;
+      border-radius: 30px;
+    }
+    .head{
+      text-align: center;
+      font: 400;
+      margin-top:-3px ;
+      margin-bottom: -10px;
+    }
+    .para{
+      text-align: center;
+      padding: 10px;
+    }
+    .btns{
+      text-decoration: none;
+      font-size: 20px;
+      color: white;
+      background-color:red;
+      padding: 10px 140px;
+      width: 100px;
+      height: 100px;
+      border-radius: 7px;
+    }
+    #name{
+      background-color: blue;
     }
 
+    a:hover{
+      background-color: greenyellow;
+    }
+    #name:hover{
+      background-color: orangered;
+    }
  </style>
 </head>
 <body style="background-color: silver;">
-  <h1><span style="color: red;">Practical-6:</span> Create the following layout using css Layout properties.</h1>
+  <p style="font-size: 60px; margin-top: 15px; margin-bottom: 10px;"><span style="color: red;">Practical-6:</span> Create the following layout using css Layout properties.</p>
   <br>
   <div class="main">
     <div class="details">
-      <img width="300" src="images/htmlImage.png" alt="">
-      <h3>Introduction to Html</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatibus delectus nulla, neque error minima, autem sint maxime sit harum, vero repudiandae ducimus asperiores laudantium odit necessitatibus? Provident, optio dolore.</p>
+      <img class="photo" src="images/htmlImage.png" alt="">
+      <h3 class="head">Introduction to HTML</h3>
+      <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatibus delectus nulla, neque error minima, autem sint maxime sit harum, vero repudiandae ducimus asperiores laudantium odit necessitatibus? Provident, optio dolore.</p>
+      <a class="btns" id="name" href="htmlpage.html">Read More..</a>
     </div>
     <div class="details">
-      <img src="images/cssImage.png" alt="">
-      <h3>Introduction to Html</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatibus delectus nulla, neque error minima, autem sint maxime sit harum, vero repudiandae ducimus asperiores laudantium odit necessitatibus? Provident, optio dolore.</p>
-    </div> <div class="details">
-      <img width="200" src="images/Jquery.jpg" alt="">
-      <h3>Introduction to Html</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatibus delectus nulla, neque error minima, autem sint maxime sit harum, vero repudiandae ducimus asperiores laudantium odit necessitatibus? Provident, optio dolore.</p>
-    </div> <div class="details">
-      <img src="images/Bootstrap.png" alt="">
-      <h3>Introduction to Html</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatibus delectus nulla, neque error minima, autem sint maxime sit harum, vero repudiandae ducimus asperiores laudantium odit necessitatibus? Provident, optio dolore.</p>
+      <img class="photo" src="images/cssImage.png" alt="">
+      <h3 class="head">Introduction to CSS</h3>
+      <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatibus delectus nulla, neque error minima, autem sint maxime sit harum, vero repudiandae ducimus asperiores laudantium odit necessitatibus? Provident, optio dolore.</p>
+      <a class="btns" href="csspage.html">Read More..</a>
+    </div> 
+    <div class="details">
+      <img class="photo" src="images/Jquery.jpg" alt="">
+      <h3 class="head">Introduction to JQUERY</h3>
+      <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatibus delectus nulla, neque error minima, autem sint maxime sit harum, vero repudiandae ducimus asperiores laudantium odit necessitatibus? Provident, optio dolore.</p>
+      <a class="btns" href="jquerypage.html">Read More..</a>
+    </div> 
+    <div class="details">
+      <img class="photo" src="images/Bootstrap.png" alt="">
+      <h3 class="head">Introduction to BOOTSTRAP</h3>
+      <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatibus delectus nulla, neque error minima, autem sint maxime sit harum, vero repudiandae ducimus asperiores laudantium odit necessitatibus? Provident, optio dolore.</p>
+      <a class="btns" href="bootstrap.html">Read More..</a>
     </div>
   </div>
 </body>
