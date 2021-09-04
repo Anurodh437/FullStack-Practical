@@ -121,7 +121,7 @@ a:hover{
 
 .articles h2 {
   flex-grow: 1;
-  height: 16.3vh;
+  height: 16.22vh;
   flex-direction: column;
   width: 50rem;
   margin-bottom: 0.6666666vh;
@@ -138,21 +138,24 @@ a:hover{
 
 #th{
   background-image: url(/images/download.png);
+  background-size: cover;
+  background-position:center;
   background-repeat: no-repeat;
-  background-size:cover;
-  background-clip: content-box;
 }
 
 #th1{
   background-image: url(/images/download1.png );
   background-repeat: no-repeat;
   background-size:cover;
+  background-position: center;
 }
 
 #th2{
   background-image: url(/images/download2.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  
 }
 
 .center{
