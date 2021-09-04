@@ -40,7 +40,7 @@ a:hover{
   display: flex;
   flex: 1 1 auto;
   justify-content: start;
-  background-image: url(/images/bgimage.png);
+  background-image: url(../images/bgimage.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -80,25 +80,25 @@ a:hover{
 }
 
 #one{
-  background-image: url(/images/avatar.png);
+  background-image: url(../images/avatar.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #two{
-  background-image: url(/images/avatar1.png);
+  background-image: url(../images/avatar1.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #three{
-  background-image: url(/images/avatar.png);
+  background-image: url(../images/avatar.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #four{
-  background-image: url(/images/avatar1.png);
+  background-image: url(../images/avatar1.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -137,21 +137,21 @@ a:hover{
 }
 
 #th{
-  background-image: url(/images/download.png);
+  background-image: url(../images/download.png);
   background-size: cover;
   background-position:center;
   background-repeat: no-repeat;
 }
 
 #th1{
-  background-image: url(/images/download1.png );
+  background-image: url(../images/download1.png );
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center;
 }
 
 #th2{
-  background-image: url(/images/download2.png);
+  background-image: url(../images/download2.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
