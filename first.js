@@ -1,5 +1,5 @@
 let data = 0;
-let button = document.getElementById("btn2");
+var button = document.getElementById("btn2");
 
 const Increment = () => {
     data = data + 1;
@@ -15,10 +15,14 @@ const Decrement = () =>{
     document.getElementById("value").innerText = data; 
 }
 
-function stateHandle() {
-    if (document.querySelector(".input").value === "") {
-        button.disabled = true; //button remains disabled
-    } else {
-        button.disabled = false; //button is enabled
+const Check = () => {
+    var button = document.getElementById("btn2");
+    console.log(document.getElementById("value").innerText == 0);
+    if(document.getElementById("value").innerText == 0){
+        button.style.cursor = "not-allowed";
     }
+    else{
+        button.style.cursor = "pointer";
+    }
+
 }

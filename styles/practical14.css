@@ -24,6 +24,3 @@
     margin-top: 45px;
     font-size:3rem;
 }
-#btn2:disabled{
-    cursor:not-allowed;
-}
