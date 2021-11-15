@@ -77,10 +77,4 @@ function isEmailValid(email)
 function isUsernameValid(username) {
     return /^([a-z0-9]+)$/.test(username);
 }
-console.log("Hello");
-console.log("Hello");
-console.log("Hello");
-console.log("Hello");
-console.log("Hello");
-console.log("Hello");
-console.log("Hello");
+
