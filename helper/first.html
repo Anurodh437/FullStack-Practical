@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Page</title>
+  </head>
+  <style>
+    .main {
+      display: flex;
+      flex-direction: column;
+      width: 10rem; 
+      border: 1px solid gray;
+      border-radius: 5px;
+    }
+    .img {
+      display: none;
+    }
+    summary {
+      list-style: none;
+      cursor: pointer;
+      border: 1px solid green;
+      padding: 2px;
+      width: 4rem;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      word-spacing: 20px;
+    }
+    span{
+      margin-right:5px;
+    }
+    .hel{
+      padding: 6px;
+      text-decoration: none;
+      color: black;
+    }
+    .hello{
+      padding: 6px;
+    }
+    .hel:hover{
+      background-color: blue;
+    }
+    .hello:hover{
+      background-color: aqua;
+    }
+  </style>
+  <body>
+    <details>
+      <summary>
+        <span
+          ><svg
+            fill="#000000"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="17px"
+            height="17px"
+          >
+            <path
+              d="M 18.414062 2 C 18.158062 2 17.902031 2.0979687 17.707031 2.2929688 L 15.707031 4.2929688 L 14.292969 5.7070312 L 3 17 L 3 21 L 7 21 L 21.707031 6.2929688 C 22.098031 5.9019687 22.098031 5.2689063 21.707031 4.8789062 L 19.121094 2.2929688 C 18.926094 2.0979687 18.670063 2 18.414062 2 z M 18.414062 4.4140625 L 19.585938 5.5859375 L 18.292969 6.8789062 L 17.121094 5.7070312 L 18.414062 4.4140625 z M 15.707031 7.1210938 L 16.878906 8.2929688 L 6.171875 19 L 5 19 L 5 17.828125 L 15.707031 7.1210938 z"
+            />
+          </svg>
+        </span>
+        <span>Edit</span>
+      </summary>
+      <div style="width: 10px; background-color: aqua;" class="main">
+        <label for="image" class="hello">Upload Image...</label>
+        <input type="file" id="image" class="img" />
+        <a href="" class="hel">Remove photo</a>
+      </div>
+    </details>
+  </body>
+</html>
